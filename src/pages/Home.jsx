@@ -97,7 +97,7 @@ export default function Home() {
       };
 
     return (
-        <div className="transition ease-in-out duration-700 dark:bg-blue-700 bg-white dark:text-white">
+        <div className="transition ease-in-out duration-700 dark:bg-gray-600 bg-white dark:text-white">
             <div className="flex flex-row">
                 <div className="ml-auto flex-col flex">
                     <h1 className="p-28 pr-4 pb-2 text-7xl font-extrabold">More than just<br />shorten links</h1>

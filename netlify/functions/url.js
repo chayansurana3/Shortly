@@ -1,4 +1,4 @@
-const fetch = require('node-fetch'); 
+const fetch = require('node-fetch'); // Ensure node-fetch@2 is installed
 
 exports.handler = async function(event, context) {
   if (event.httpMethod !== 'POST') {
