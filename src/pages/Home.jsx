@@ -101,8 +101,8 @@ export default function Home() {
             <div className="flex flex-row">
                 <div className="ml-auto flex-col flex">
                     <h1 className="p-28 pr-4 pb-2 text-7xl font-extrabold">More than just<br />shorten links</h1>
-                    <p className="p-28 pt-2 pb-8 text-gray-400 text-wrap text-lg font-semibold dark:text-white dark:font-thin">Build your brand's recognition and get detailed insights on how your links are performing</p>
-                    <a href="#shorten-link-section" onClick={scrollToShortener} className="bg-teal-400 mx-auto px-4 py-3 transition ease-in-out duration-300 hover:scale-110 text-white rounded-3xl font-bold hover:bg-teal-500 dark:bg-blue-500">Get Started</a>
+                    <p className="p-28 pt-2 pb-8 text-gray-400 text-wrap text-lg font-semibold dark:text-white dark:font-normal">Build your brand's recognition and get detailed insights on how your links are performing</p>
+                    <a href="#shorten-link-section" onClick={scrollToShortener} className="bg-teal-400 mx-auto px-4 py-3 transition ease-in-out duration-300 hover:scale-110 text-white rounded-2xl font-bold hover:bg-teal-500 dark:bg-blue-500">Get Started</a>
                 </div>
                 <div className="ml-auto p-8">
                     <img src={MainPic} alt="Main pic" />
