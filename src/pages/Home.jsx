@@ -111,7 +111,7 @@ export default function Home() {
             <div id="shorten-link-section" className="mt-12 flex flex-col items-center bg-blue-950 pb-8" >
                 <div className="rounded-lg flex p-10 pb-4 w-11/12" style={{ backgroundImage: `url(${InputImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
                     <input id='url-input' placeholder="Shorten a link here" className="w-4/5 p-4 rounded-md" />
-                    <button className="w-1/6 bg-teal-400 ml-4 p-4 transition ease-in-out duration-300 hover:scale-110 text-white font-bold hover:bg-teal-500 text-center" onClick={onSubmit}>Shorten It!
+                    <button className="w-1/6 bg-teal-400 ml-4 p-4 transition ease-in-out duration-300 hover:scale-110 text-white font-bold hover:bg-teal-500 text-center dark:bg-blue-500" onClick={onSubmit}>Shorten It!
                         {isProcessing && <span id='button-processing' className="inline-flex items-center ml-2"><svg className="animate-spin h-5 w-5 mr-1 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle><path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8h8a8 8 0 01-8 8v-8H4z"></path></svg></span>}
                     </button>
                 </div>
