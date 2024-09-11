@@ -1,0 +1,7 @@
+.smooth-scroll {
+    scroll-behavior: smooth;
+}
+  
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
