@@ -55,7 +55,7 @@ export default function SignUp(props) {
 
     const handleGoogleSignUp = async () => {
         try {
-            const result = await signInWithPopup(auth, googleProvider);
+            await signInWithPopup(auth, googleProvider);
             console.log('User signed up with Google:');
             props.login();
             // Handle successful sign-up with Google here

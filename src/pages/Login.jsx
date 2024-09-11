@@ -12,7 +12,7 @@ const LoginPage = (props) => {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const userCredential = await signInWithEmailAndPassword(auth, email, password);
+      await signInWithEmailAndPassword(auth, email, password);
       props.login();
       console.log('User logged in:');
     } catch (error) {
@@ -23,7 +23,7 @@ const LoginPage = (props) => {
 
   const handleGoogleLogin = async () => {
     try {
-      const result = await signInWithPopup(auth, googleProvider);
+      await signInWithPopup(auth, googleProvider);
       props.login();
       console.log('Google login success:');
     } catch (error) {
