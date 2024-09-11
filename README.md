@@ -32,7 +32,16 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshots/Screenshot1.png)
+![](./screenshots/Screenshot2.png)
+![](./screenshots/Screenshot3.png)
+![](./screenshots/Screenshot4.png)
+![](./screenshots/Screenshot5.png)
+![](./screenshots/Screenshot6.png)
+![](./screenshots/Screenshot7.png)
+![](./screenshots/Screenshot8.png)
+![](./screenshots/Screenshot9.png)
+![](./screenshots/Screenshot10.png)
 
 
 ### Links
